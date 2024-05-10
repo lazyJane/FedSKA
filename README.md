@@ -24,8 +24,8 @@ See the README.md files of respective dataset, i.e. data/ for instructions on ge
 
 ## Run experiments on the *Mnist* Dataset:
 ```
-nohup python -u main.py --dataset Mnist-allocation_shards5-ratio1.0-u100 --algorithm FedSKA\
---batch_size 32 --tau 0.9 --k 30 --feature_hidden_size 64 --beta 0.01 --num_users 100   --learning_rate 0.01 --num_glob_iters 500 --E 1 --times 1 --gpu 4 > ./acc_loss_record/mnist/E=1/r=1.0/FedSKA.out 2>&1 &
+python -u main.py --dataset Mnist-allocation_shards5-ratio1.0-u100 --algorithm FedSKA\
+--batch_size 32 --tau 0.9 --k 30 --feature_hidden_size 64 --beta 0.01 --num_users 100   --learning_rate 0.01 --num_glob_iters 500 --E 1 --times 1
 ```
 We provide example scripts to run paper experiments under experiments/ directory.
 
