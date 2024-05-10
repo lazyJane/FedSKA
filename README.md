@@ -2,9 +2,6 @@
 
 Official codes for ECAI '23 full paper: Unsupervised Graph Structure-Assisted Personalized Federated Learning
 
-<p align="center">
-  <img width="" height="400" src=./fig/overall.png>
-</p>
 
 
 ## Data Preparation
@@ -17,7 +14,7 @@ The following table summarizes the datasets and models
 
 |Dataset         | Task |  Model |
 | ------------------  |  ------|------- |
-| MNIST   |     Handwritten character recognition       |     2-layer CNN + 2-layer FFN  |
+| MNIST   |     Handwritten character recognition       |     MCLR  |
 | CIFAR10   |     Image classification        |      MobileNet-v2 |
 | Shakespeare |     Next character prediction        |      Stacked LSTM    |
 | METR-LA |     Traffic forecasting        |      GRU    |
